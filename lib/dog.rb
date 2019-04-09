@@ -12,4 +12,6 @@ end
     puts @@all
   end
   
+  self.all
+  
 end
