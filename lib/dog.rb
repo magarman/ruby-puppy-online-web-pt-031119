@@ -8,8 +8,8 @@ class Dog
     @@all << self
 end
   
-  def self.all
-   puts @@all.map{|dog_instance| dog.name}
+ def self.all
+    puts @@all.map{ |dog| dog.name }
   end
   
 end
