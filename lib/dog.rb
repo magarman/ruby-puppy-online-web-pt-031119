@@ -12,4 +12,8 @@ end
     puts @@all.collect{|dog| dog.name}
   end
   
+  def self.clear_all
+    
+end
+  
 end
